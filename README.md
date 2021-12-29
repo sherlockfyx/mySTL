@@ -10,11 +10,17 @@
 - [现代操作系统：原理与实现](https://ipads.se.sjtu.edu.cn/mospi/)
 - [xv6中文文档](https://th0ar.gitbooks.io/xv6-chinese/content/index.html)
 - [CS:APP3e课程表](http://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html)
+
+- [虚拟内存精粹](https://zhuanlan.zhihu.com/p/370092684)
+
+
 - [MIT6.828课程表](https://pdos.csail.mit.edu/6.828/2018/schedule.html)
 #### MIT6.828 JOS参考资料
 - [fatsheep9146](https://www.cnblogs.com/fatsheep9146/category/769143.html)
 - [bysui的博客](https://blog.csdn.net/bysui/category_6232831.html)
 
+### 计算机网络
+- [从输入一个 URL 到页面加载完成的过程](https://imageslr.com/2020/02/26/what-happens-when-you-type-in-a-url.html)
 
 ### 数据库(MySQL/Redis)
 - [Redis:相关梳理](http://erdengk.top/tags/redis)

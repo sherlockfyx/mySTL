@@ -12,12 +12,20 @@ using namespace std;
 #include "inc/mysingleton.h"
 #include "inc/mystruct.h"
 
+bool Letter(unsigned x){
+    unsigned a = (x&0x22222222);
+    unsigned b = (x&0x44444444)>>1;
+    unsigned c = x>>2;
+    return c&(a|b);
+}
 
 
 int main(){
 
-    int *p = new int(8);
-    delete p;
+
+//    cout<<Letter(0xff3435)<<endl;
+//    cout<<Letter(0x433435)<<endl;
+
     return 0;
 }
 
