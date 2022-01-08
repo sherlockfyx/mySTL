@@ -46,32 +46,31 @@ public:
     int strStr(std::string s,std::string p){
         int n = s.size();
         int m = p.size();
-        if(m==0) return 0;
-        std::vector<int> next(m);
-        getNext(next,p);
-        int j = -1;
-        for(int i = 0;i<s.size();i++){
-            while(j>=0&&s[i]!=p[j+1]){
-                j = next[j];
+        if(m == 0) return 0;
+        std::vector<int> next(m, 0);
+        //右移一位
+        auto getNext = [p,&next](){
+            for(int i = 0, j = -1; i < p.size(); i++, j++){
+                next[i] = j;
+                while(j >= 0 && p[i] != p[j]) j = next[j];
             }
-            if(s[i]==p[j+1]) j++;
-            if(j == p.size()-1) return i-p.size()+1;
+        };
+        //getNext();
+        auto getPMT = [p,&next](){
+            for(int i = 1, j = 0; i < p.size(); i++){
+                while(j > 0 && p[i] != p[j]) j = next[j - 1];
+                //j==0 || p[i] == p[j]
+                if (p[i] == p[j]) j++;
+                next[i] = j;
+            }
+        };
+        //getPMT();
+        for(int i = 0, j = 0; i < n; i++, j++){
+            while(j >= 0 && s[i] != p[j]) j = next[j];
+            //j == -1 || s[i] == p[j]
+            if(j == m - 1) return i - j;
         }
-
         return -1;
-    }
-    void getNext(std::vector<int> &next,std::string& p){
-        int j = -1;
-        next[0] = j;
-        for(int i = 1;i<p.size();i++){
-            while(j>=0&&p[i]!=p[j+1]){
-                j = next[j];
-            }
-            if(p[i]==p[j+1]){
-                j++;
-            }
-            next[i] = j;
-        }
     }
 };
 
