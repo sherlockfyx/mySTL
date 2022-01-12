@@ -10,21 +10,20 @@
 ## 知识清单
 整理一些C++相关的知识清单
 
-
 ### C/C++/Linux语言相关
 - [C++:高效程序员-知识汇总](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzA4MjI3NzQ1Nw==&action=getalbum&album_id=1511180677537464321&scene=173&subscene=93&sessionid=1640530459&enterid=1640531092&from_msgid=2247501978&from_itemidx=1&count=3&nolastread=1#wechat_redirect)
 - [Linux 中的各种栈：进程栈 线程栈 内核栈 中断栈](https://blog.csdn.net/yangkuanqaz85988/article/details/52403726)
 - [Linux:高效程序员-知识汇总](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzA4MjI3NzQ1Nw==&action=getalbum&album_id=1571518469139988480&scene=21#wechat_redirect)
+
 #### C++工具
 - [Cmake](https://www.bookstack.cn/read/CMake-Cookbook/README.md)
+- [MIT 6.NULL](https://missing-semester-cn.github.io/)
 
 
 ### 操作系统
 - [现代操作系统：原理与实现](https://ipads.se.sjtu.edu.cn/mospi/)
 
-
 - [虚拟内存精粹](https://zhuanlan.zhihu.com/p/370092684)
-
 
 - [CSAPP Fall 2015](http://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html)
 - [CSAPP-Lab](http://csapp.cs.cmu.edu/3e/labs.html)
@@ -39,14 +38,14 @@
 
 ### 计算机网络
 - [从输入一个 URL 到页面加载完成的过程](https://imageslr.com/2020/02/26/what-happens-when-you-type-in-a-url.html)
-- [cs144 Fall 2021](https://cs144.github.io/)
+- [cs144 Fall 2021](https://cs144.github.io/) [[slides](https://github.com/khanhnamle1994/computer-networking)]
 
 ### 数据库(MySQL/Redis)
 - [Redis:相关梳理](http://erdengk.top/tags/redis)
 - [CMU15-445 Fall 2020](https://15445.courses.cs.cmu.edu/fall2020/assignments.html)
+
 ### 算法与数据结构
 - [KMP算法](https://www.zhihu.com/question/21923021/answer/281346746)
-
 
 ### 小项目
 - [30天入门Linux服务器](https://zhuanlan.zhihu.com/p/450050315)
