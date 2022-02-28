@@ -4,4 +4,4 @@ project(mySTL)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(mySTL main.cpp)
+add_executable(mySTL main.cpp src/test.cpp)

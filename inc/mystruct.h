@@ -39,8 +39,19 @@ struct cmp{
         return a>b;
     }
 };
-
 std::priority_queue<int,std::vector<int>,std::greater<int>> q;//最小堆
 std::priority_queue<int,std::vector<int>,cmp> q1;//最小堆
+
+
+int CAS(int *addr,int expected, int new_value){
+    int temp = *addr;
+    if(temp == expected){
+        *addr = new_value;
+    }
+    return temp;
+}
+
+
+
 
 #endif //HELLOWORLD_MYSTRUCT_H
