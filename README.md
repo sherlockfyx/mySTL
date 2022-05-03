@@ -1,10 +1,8 @@
 ## mySTL
-平时自己的code练习，写写bug。
+每天进步一点!
 
 ### TODO Lists
 - [ ] [MIT6.NULL](https://missing-semester-cn.github.io/), [Video](https://www.bilibili.com/video/BV14E411J7n2) | Plan：调式及性能分析
-
-- [ ] [MIT6.S081](https://pdos.csail.mit.edu/6.828/2020/schedule.html)
 
 - [ ] [CMU15-445](https://15445.courses.cs.cmu.edu/fall2021/assignments.html)
 
@@ -16,6 +14,7 @@
 ### Finish
 - [x] [CMU15-213](http://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html), [Video](https://www.bilibili.com/video/BV1iW411d7hd), [Labs](http://csapp.cs.cmu.edu/3e/labs.html), [Code](https://github.com/sherlockfyx/CMU15-213)
 
+- [x] [MIT6.S081](https://pdos.csail.mit.edu/6.828/2020/schedule.html), [Video](https://www.bilibili.com/video/BV19k4y1C7kA), [Code](https://github.com/sherlockfyx/xv6-labs-2020)
 
 
 
